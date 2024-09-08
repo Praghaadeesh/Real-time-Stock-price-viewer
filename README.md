@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+Real-Time Stock Market Dashboard
+This project is a React-based web application that allows users to track real-time stock prices. It fetches data from the Alpha Vantage API, providing users with an intuitive interface to monitor stock prices at 5-minute intervals. The dashboard displays a line chart for each tracked stock, allowing for quick visualization of price trends.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Features
+Real-Time Data: Fetches and displays stock prices every 5 minutes using the Alpha Vantage API.
+Add/Remove Stocks: Users can add any stock symbol to the dashboard and remove it when it's no longer needed.
+Responsive Charts: Uses Recharts to render responsive and interactive line charts for stock prices.
+Error Handling: Displays error messages if there's an issue with fetching stock data.
+Installation
+To run the project locally, follow these steps:
 
-## Available Scripts
+Clone the repository:
 
-In the project directory, you can run:
+bash
+Copy code
+git clone https://github.com/yourusername/stock-market-dashboard.git
+cd stock-market-dashboard
+Install dependencies:
 
-### `npm start`
+bash
+Copy code
+npm install
+Add your API key: Replace the placeholder UGYHGJBMQPH6F5KW in the code with your actual API key from Alpha Vantage.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Start the application:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+bash
+Copy code
+npm start
+The application will be available at http://localhost:3000.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Usage
+Adding Stocks: Enter the stock symbol (e.g., AAPL for Apple) in the input field and click "Add Stock" to start tracking its price.
+Viewing Data: The stock price data will be displayed in a line chart, showing the price fluctuations over time.
+Removing Stocks: Click the "Remove" button next to a stock symbol to stop tracking it.
+Dependencies
+React: JavaScript library for building user interfaces.
+Recharts: A charting library built on React for creating responsive data visualizations.
+Alpha Vantage API: Provides real-time and historical stock market data.
