@@ -22,6 +22,9 @@ To run the project locally, follow these steps:
 \
 The application will be available at http://localhost:3000.
 
+![image](https://github.com/user-attachments/assets/44e6e3e3-59cc-464e-9c21-d2de6356c50f)
+
+
 ## Usage
 **Adding Stocks:** Enter the stock symbol (e.g., AAPL for Apple) in the input field and click "Add Stock" to start tracking its price.\
 **Viewing Data:** The stock price data will be displayed in a line chart, showing the price fluctuations over time.\
