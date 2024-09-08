@@ -11,17 +11,24 @@ This project is a React-based web application that allows users to track real-ti
 To run the project locally, follow these steps:
 
 ### Clone the repository
-`git clone https://github.com/yourusername/stock-market-dashboard.git`
-`cd stock-market-dashboard`
+```bash
+git clone https://github.com/yourusername/stock-market-dashboard.git
+cd stock-market-dashboard
+```
 
 ### Install dependencies
-`npm install`
+```bash
+npm install
+```
 
 ### Start the application
-`npm start`\
-\
+```bash
+npm start
+```
+
 The application will be available at http://localhost:3000.
 
+## Screenshots
 ![image](https://github.com/user-attachments/assets/44e6e3e3-59cc-464e-9c21-d2de6356c50f)
 
 
