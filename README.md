@@ -1,4 +1,4 @@
-Real-Time Stock Market Dashboard
+# Real-Time Stock Market Dashboard
 This project is a React-based web application that allows users to track real-time stock prices. It fetches data from the Alpha Vantage API, providing users with an intuitive interface to monitor stock prices at 5-minute intervals. The dashboard displays a line chart for each tracked stock, allowing for quick visualization of price trends.
 
 Features
